@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import copyfileImage from './greenCopyfile.png';
-import arrowForward from './grayArrowForward.png';
-import './PasswordGenerator.css';
+import copyfileImage from '../images/greenCopyfile.png';
+import arrowForward from '../images/grayArrowForward.png';
+import '../styles/PasswordGenerator.css';
 
 const PasswordGenerator = () => {
   const [password, setPassword] = useState('P4$5W0rD!');
